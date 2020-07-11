@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<strong>[LO4] - Proces tworzenia klasyfikatora HAAR<br>model obiektu: Airbus A320-200</strong>
+<strong><font size="5">[LO4] - Proces tworzenia klasyfikatora HAAR</font><br>model obiektu: Airbus A320-200</strong>
 </p>
 
 <h3> Koncepcja wykonania projektu</h3>
