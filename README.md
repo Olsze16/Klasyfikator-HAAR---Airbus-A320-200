@@ -6,8 +6,8 @@
 
 <p align="center">
 
-## **[LO4] - Proces tworzenia klasyfikatora HAAR \
- model obiektu: Airbus A320-200**
+**[LO4] - Proces tworzenia klasyfikatora HAAR**
+**model obiektu: Airbus A320-200**
 
 </p>
 
