@@ -5,15 +5,16 @@
 </p>
 
 <p align="center">
-**[LO4] - Proces tworzenia klasyfikatora HAAR**<br>**model obiektu: Airbus A320-200**
+<strong>[LO4] - Proces tworzenia klasyfikatora HAAR<br>model obiektu: Airbus A320-200</strong>
 </p>
 
-### Koncepcja wykonania projektu
+<h3> Koncepcja wykonania projektu</h3>
+aopksdfgpakdfg
 
-### Tworzenie zdjęc negatywnych
+<h3> Tworzenie zdjęc negatywnych</h3>
 
-### Tworzenie zdjęć pozytywnych
+<h3> Tworzenie zdjęć pozytywnych</h3>
 
-### Konfiguracja uczenia mszynowego
+<h3> Konfiguracja uczenia mszynowego</h3>
 
-### Rezultat
+<h3> Rezultat</h3>
