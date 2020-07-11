@@ -25,9 +25,15 @@ Ponadto, celem projektu jest kształtowanie właściwych postaw ugruntowania św
 <h2> Przebieg realizacji projektu </h2>
 <h3> Tworzenie zdjęc negatywnych</h3>
 
-Jednym z procesów przygotowania do uczenia maszynowego HAAR jest przygotowanie zbioru zdjęć negatywnych. Aby przygotować takowy zbirór, ze [strony internetowej](http://www.vision.caltech.edu/Image_Datasets/Caltech101 "download images") pobrano losowy zbiór zdjęć różnych kategorii, który zapisano w katalogu <strong>./101_ObjectCategories</strong>.
+Jednym z procesów przygotowania do uczenia maszynowego HAAR jest przygotowanie zbioru zdjęć negatywnych. Aby przygotować takowy zbirór, ze [strony internetowej](http://www.vision.caltech.edu/Image_Datasets/Caltech101 "download images") pobrano losowy zbiór zdjęć różnych kategorii, który zapisano w katalogu <strong>[./101_ObjectCategories](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/101_ObjectCategories)</strong>.
 
-Do realizacji niniejszego projektu, z wyżej wymienionego katalogu losowo wybrano 3000 zdjęć, które następnie skonwertowano w odcienie szarości i przeskalowano do wartości 150x150 [px]. Losowo wybrane wzorce zostały zapisane w katalogu <strong>./negative</strong>.
+Do realizacji niniejszego projektu, z wyżej wymienionego katalogu losowo wybrano 3000 zdjęć, które następnie skonwertowano w odcienie szarości i przeskalowano do wartości 150x150 [px]. Losowo wybrane wzorce zostały zapisane w katalogu <strong>[./negatiive]([a link](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/negative)).</strong>
+
+Poniżej przedstawiono przykładowe, skonwertowane wzorce negatywne:
+<p align="center">
+  <img src="/negative/image2.jpg?raw=true" alt="Negative example 1"/>
+  <img src="/negative/image10.jpg?raw=true" alt="Negative example 2"/>
+</p>
 
 <h3> Tworzenie zdjęć pozytywnych</h3>
 
