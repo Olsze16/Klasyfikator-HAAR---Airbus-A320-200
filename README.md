@@ -34,7 +34,7 @@ Poniżej przedstawiono przykładowe, skonwertowane wzorce negatywne:
   <img src="/negative/image2.jpg?raw=true" alt="Negative example 1"/>
   <img src="/negative/image10.jpg?raw=true" alt="Negative example 2"/>
 </p>
-<p align="center">*Pic. 1/2. Przykładowe wzorce negatywne*</p>
+<p align="center"><em>Pic. 1/2. Przykładowe wzorce negatywne</em></p>
 
 W powyższym repozytorium załączono [kod źródłowy(HAAR.py)](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/HAAR.py) programu w języku Python, który dokonuje losowania dowolnych zdjęć z katalogu <strong>[./101_ObjectCategories](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/101_ObjectCategories)</strong>, odpowiednio je konwertuje i zapisuje do katalogu <strong>[./negatiive](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/negative).</strong>
 
