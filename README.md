@@ -27,13 +27,30 @@ Ponadto, celem projektu jest kształtowanie właściwych postaw ugruntowania św
 
 Jednym z procesów przygotowania do uczenia maszynowego HAAR jest przygotowanie zbioru zdjęć negatywnych. Aby przygotować takowy zbirór, ze [strony internetowej](http://www.vision.caltech.edu/Image_Datasets/Caltech101 "download images") pobrano losowy zbiór zdjęć różnych kategorii, który zapisano w katalogu <strong>[./101_ObjectCategories](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/101_ObjectCategories)</strong>.
 
-Do realizacji niniejszego projektu, z wyżej wymienionego katalogu losowo wybrano 3000 zdjęć, które następnie skonwertowano w odcienie szarości i przeskalowano do wartości 150x150 [px]. Losowo wybrane wzorce zostały zapisane w katalogu <strong>[./negatiive]([a link](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/negative)).</strong>
+Do realizacji niniejszego projektu, z wyżej wymienionego katalogu losowo wybrano 3000 zdjęć, które następnie skonwertowano w odcienie szarości i przeskalowano do wartości 150x150 [px]. Losowo wybrane wzorce zostały zapisane w katalogu <strong>[./negatiive](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/negative).</strong>
 
 Poniżej przedstawiono przykładowe, skonwertowane wzorce negatywne:
 <p align="center">
   <img src="/negative/image2.jpg?raw=true" alt="Negative example 1"/>
   <img src="/negative/image10.jpg?raw=true" alt="Negative example 2"/>
 </p>
+<p align="center">*Pic. 1/2. Przykładowe wzorce negatywne*</p>
+
+W powyższym repozytorium załączono [kod źródłowy(HAAR.py)](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/HAAR.py) programu w języku Python, który dokonuje losowania dowolnych zdjęć z katalogu <strong>[./101_ObjectCategories](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/101_ObjectCategories)</strong>, odpowiednio je konwertuje i zapisuje do katalogu <strong>[./negatiive](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/negative).</strong>
+
+Liczbę potrzebnych do wygenerowania negatwynych wzorów należy zmienić poprzez zmianę argumentu pętli while:
+
+    while pic_num<3001: $- wygenerowanie 3000 wzorców
+    while pic_num<2001: $- wygenerowanie 2000 wzorców
+
+Aby zakończyć proces generowania negatwynych wzorców, należało stworzyć plik .txt, który przechowuje lokalizację wszystkich negatywnych wzorców porzebnych do uczenia maszynowego. Aby tego dokonać, w terminalu OS Ubuntu należało wpisać odpowiednią komendę:
+
+    find ./negative -iname "*.jpg" > negatives.txt
+
+
+
+
+
 
 <h3> Tworzenie zdjęć pozytywnych</h3>
 
