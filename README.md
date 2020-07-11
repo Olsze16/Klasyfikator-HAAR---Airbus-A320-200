@@ -23,7 +23,7 @@ Celem projektu jest poznanie możliwości biblioteki OpenCV 3.4 do tworzenia kla
 Ponadto, celem projektu jest kształtowanie właściwych postaw ugruntowania świadomości ważności i rozumienia pozatechnicznych aspektów i skutków działalności inżyniera i związaną z tym odpowiedzialność za podejmowane decyzje.
 
 <h2> Przebieg realizacji projektu </h2>
-<h3> Tworzenie zdjęc negatywnych</h3>
+<h3> Tworzenie wzorców negatywnych</h3>
 
 Jednym z procesów przygotowania do uczenia maszynowego HAAR jest przygotowanie zbioru zdjęć negatywnych. Aby przygotować takowy zbirór, ze [strony internetowej](http://www.vision.caltech.edu/Image_Datasets/Caltech101 "download images") pobrano losowy zbiór zdjęć różnych kategorii, który zapisano w katalogu <strong>[./101_ObjectCategories](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/101_ObjectCategories)</strong>.
 
@@ -47,12 +47,19 @@ Aby zakończyć proces generowania negatwynych wzorców, należało stworzyć pl
 
     find ./negative -iname "*.jpg" > negatives.txt
 
+<h3> Tworzenie wzorców pozytywnych (sztucznych)</h3>
 
+Kolejnym procesem przygotowania do uczenia maszynowego HAAR jest przygotowanie zbioru zdjęć sztucznie pozytwynych. Aby przygotować takowy zbiór, należy zdefiniować obiekt uczenia maszynowego. W niniejszym przypadku obiektem jest samolot Airbus-A320-200, którego model 3D pobrano ze strony [sketchfab](https://sketchfab.com/3d-models/airbus-a320-200-lufthansa-d78fe1ede1f7483cb9fd7734d055b417 "Airbus-A320-200 3D Model").
 
+Na podstawie modelu 3D, stworzono trzy obrazy obiekty w formacie .png (z usnięciem tła). Konwersję usuwania tła wykonano poprzez skorzystanie z gotowego narzędzia online, dostępnego pod linkiem: [https://www.remove.bg/](https://www.remove.bg/). Poniższe zrzuty przedstawiają wygenerowane obrazy w formacie .png.
 
+<p align="center">
+  <img src="/luft1.png?raw=true" alt="Wzorzec do uczenia"/>
+  <img src="/luft2.png?raw=true" alt="Wzorzec do uczenia"/>
+  <img src="/luft3.png?raw=true" alt="Wzorzec do uczenia"/>
+</p>
+<p align="center"><em>Pic. 3/4/5. Wygenerowane obrazy obiektu w formacie .png</em></p>
 
-
-<h3> Tworzenie zdjęć pozytywnych</h3>
 
 <h3> Konfiguracja uczenia mszynowego</h3>
 
