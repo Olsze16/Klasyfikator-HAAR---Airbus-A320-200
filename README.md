@@ -75,7 +75,14 @@ Jako argumenty funkcji, zdefiniowano kolejno:
 <li> <strong>-bgcolor, -bgtrash, -max?angle, -num, -w, -h</strong> - parametry do wygenerowania pozytywnych wzorców. Szczegółowe informacje zawarte są w bibliotecę opencv.  </li>
 </ul>
 
-Dla każdego obrazu modelu 3D należało stworzyć po 200 pozytywnych wzorców, co łącznie wygenerowało 600 pozytywnych zdjęć dostępnych w katalogu [./info](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/info).
+Dla każdego obrazu modelu 3D należało stworzyć po 200 pozytywnych wzorców, co łącznie wygenerowało 600 pozytywnych zdjęć dostępnych w katalogu [./info](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/info). Poniższe zrzuty ekranu przedstawiają przykładowo wygenerowane wzorce pozytywne:
+
+<p align="center">
+  <img src="/info/0001_0026_0034_0085_0042.jpg?raw=true" alt="Wzorzec pozytywny do uczenia"/>
+  <img src="/info/0004_0026_0035_0098_0049.jpg?raw=true" alt="Wzorzec do uczenia"/>
+</p>
+<p align="center"><em>Pic. 6/7. Przykładowe wygenerowane wzorce pozytywne</em></p>
+
 
 Po wygenerowaniu 600 pozytywnych wzorców, należało stworzyć wektor, który przechowa informację o lokalizacji pozytywnych wzorców i będzie podawany jako argument do wywołania funkcji uczenia maszynowego. Aby wygenerować wektor należało skorzystać z podstawowej funkcji biblioteki opencv - <strong>opencv_createsamples</strong>. Aby tego dokonać, w terminalu OS Ubuntu wpisano poniżej załączony fragment kodu:
 
