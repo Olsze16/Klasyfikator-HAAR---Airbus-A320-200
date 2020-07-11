@@ -81,7 +81,7 @@ Dla każdego obrazu modelu 3D należało stworzyć po 200 pozytywnych wzorców, 
   <img src="/info/0001_0026_0034_0085_0042.jpg?raw=true" alt="Wzorzec pozytywny do uczenia"/>
   <img src="/info/0004_0026_0035_0098_0049.jpg?raw=true" alt="Wzorzec do uczenia"/>
 </p>
-<p align="center"><em>Pic. 6/7. Przykładowe wygenerowane wzorce pozytywne</em></p>
+<p align="center"><em>Pic. 6/7. Wygenerowane przykładowe wzorce pozytywne</em></p>
 
 
 Po wygenerowaniu 600 pozytywnych wzorców, należało stworzyć wektor, który przechowa informację o lokalizacji pozytywnych wzorców i będzie podawany jako argument do wywołania funkcji uczenia maszynowego. Aby wygenerować wektor należało skorzystać z podstawowej funkcji biblioteki opencv - <strong>opencv_createsamples</strong>. Aby tego dokonać, w terminalu OS Ubuntu wpisano poniżej załączony fragment kodu:
