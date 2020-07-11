@@ -7,6 +7,9 @@
 <p align="center">
 <strong>[LO4] Tworzenie klasyfikatora HAAR</strong><br>realizacja na modelu: Airbus A320-200
 </p>
+<p align ="right">
+Autorzy: Kamil Olszewski,<br>Daniel Świątek
+</p>
 
 <h2> Opis projektu</h2>
 Niniejszy projekt zawiera pliki, oraz kody źródłowe potrzebne do wykonania klasyfikatora HAAR'o podobnego na przykładzie modelu: Airbus A320-200.
