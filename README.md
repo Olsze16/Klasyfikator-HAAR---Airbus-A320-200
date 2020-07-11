@@ -1,18 +1,22 @@
 # Klasyfikator HAAR - Airbus A320-200
+
 <p align="center">
-![alt text](https://www.put.poznan.pl/sites/default/files/field/image/pp-put_logo_jasne.jpg "PUT logo")
-
-# **[LO4] - Proces tworzenia klasyfikatora HAAR - model obiektu: Airbus A320-200**
-
-## Daniel Świątek & Kamil Olszewski
+  <img src="https://www.put.poznan.pl/sites/default/files/field/image/pp-put_logo_jasne.jpg?raw=true" alt="PUT logo"/>
 </p>
 
-## Koncepcja wykonania projektu
+<p align="center">
 
-## Tworzenie zdjęc negatywnych
+## **[LO4] - Proces tworzenia klasyfikatora HAAR - model obiektu: Airbus A320-200**
 
-## Tworzenie zdjęć pozytywnych
+### Daniel Świątek & Kamil Olszewski
+</p>
 
-## Konfiguracja uczenia mszynowego
+### Koncepcja wykonania projektu
 
-## Rezultat
+### Tworzenie zdjęc negatywnych
+
+### Tworzenie zdjęć pozytywnych
+
+### Konfiguracja uczenia mszynowego
+
+### Rezultat
