@@ -24,7 +24,10 @@ Ponadto, celem projektu jest kształtowanie właściwych postaw ugruntowania św
 
 <h2> Przebieg realizacji projektu </h2>
 <h3> Tworzenie zdjęc negatywnych</h3>
-Aby rozpocząć uczenie maszynowe, należało przygotować zbiór zdjęć, które posłuzą jako wzorce negatywne. W związku z powyższym, ze [strony internetowej](http://www.vision.caltech.edu/Image_Datasets/Caltech101/) pobrano losowy zbiór zdjęć, który zapisano w katalogu <strong>101_ObjectCategories</strong>
+Aby rozpocząć uczenie maszynowe, należało przygotować zbiór zdjęć, które posłuzą jako wzorce negatywne. W związku z powyższym, ze 
+[strony internetowej]
+(http://www.vision.caltech.edu/Image_Datasets/Caltech101/)
+ pobrano losowy zbiór zdjęć, który zapisano w katalogu <strong>101_ObjectCategories</strong>
 
 
 <h3> Tworzenie zdjęć pozytywnych</h3>
