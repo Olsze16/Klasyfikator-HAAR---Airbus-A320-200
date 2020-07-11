@@ -1,15 +1,26 @@
 # Klasyfikator HAAR - Airbus A320-200
 
 <p align="center">
-  <img src="https://www.put.poznan.pl/sites/default/files/field/image/pp-put_logo_jasne.jpg?raw=true" alt="PUT logo"/>
+  <img src="/support_files/putlogo.png?raw=true" alt="PUT logo"/>
 </p>
 
 <p align="center">
-<strong>[LO4] - Proces tworzenia klasyfikatora HAAR</strong><br>model obiektu: Airbus A320-200
+<strong>[LO4] Tworzenie klasyfikatora HAAR</strong><br>realizacja na modelu: Airbus A320-200
 </p>
 
-<h3> Koncepcja wykonania projektu</h3>
-aopksdfgpakdfg
+<h3> Opis projektu</h3>
+Niniejszy projekt zawiera pliki, oraz kody źródłowe potrzebne do wykonania klasyfikatora HAAR'o podobnego na przykładzie modelu: Airbus A320-200.
+
+Projekt został wykonany w związku z realizacją zajęć laboratoryjnych w trybie zdalnym z przedmiotu Informatyka IV - Symulacja Komputerowa, pod patronatem Pana mgr. inż. Przemysława Siwka.
+
+Celem projektu jest poznanie możliwości biblioteki OpenCV 3.4 do tworzenia klasyfikatorw HAAR'o podobnych, poprzez nabycie umiejętności w zakresie:
+<ul>
+<li> obsługi biblioteki OpenCV </li>
+<li> tworzenia zbiorów uczących dla algorytmów integracji maszynowej </li>
+<li> tworzenia klasyfikatorów HAAR'o podobnych </li>
+</ul>
+
+Ponadto, celem projektu jest kształtowanie właściwych postaw ugruntowania świadomości ważności i rozumienia pozatechnicznych aspektów i skutków działalności inżyniera i związaną z tym odpowiedzialność za podejmowane decyzje.
 
 <h3> Tworzenie zdjęc negatywnych</h3>
 
