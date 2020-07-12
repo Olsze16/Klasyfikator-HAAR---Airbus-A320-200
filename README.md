@@ -107,10 +107,40 @@ W ten sposób utworzono plik .vec, który w następnym etapie zostanie użyty ja
 
 
 
-<h3> Konfiguracja uczenia maszynowego</h3>
+<h3> Konfiguracja i uruchomienie uczenia maszynowego</h3>
+
+Po przygotowaniu wyżej opisanych plików i katalogów, można było przystąpić do czasochłonnego procesu uczenia maszynowego. Aby rozpocząć uczenie maszynowe, należało skorzystać z funkcji dostępnej w bibliotece opencv- `opencv_traincascade`. Poniżej przestawiono fragment kodu, który użyto w niniejszym projekcie:
+
+    opencv_traincascade -data ./data -vec pozytywne.vec -bg negatives.txt -numPos 600 -numNeg 3000 -numStages 13 -featuretype HAAR -minHitRate 0.996 -maxFalseAlarmRate 0.5 -w 50 -h 25
+
+Jako argumenty funkcji, zdefiniowano kolejno:
+<ul>
+<li><strong>-data</strong> - wskazanie na katalog, w którym miejscu zostaną zapisane elementy wyjściowe funkcji (klasyfikator)</li>
+<li> <strong>-vec</strong> - lokalizacja wcześniej przygotowanego pliku wektora z wzorcami pozytywnymi, </li>
+<li> <strong>-bg</strong> - lokalizcja wcześniej przygotowanego pliku z informacją o lokalizacji wzorców negatywnych, </li>
+<li> <strong>-numPos, -numNeg</strong> - odpowiednio: liczba wzorców pozytywnych, liczba wzorców negatywnych, </li>
+<li> <strong>-numStages</strong> - liczba kroków do wykonania przez uczenie maszynowe opencv,  </li>
+<li> <strong>-featuretype</strong> - typ uczenia maszynowego,  </li>
+<li> <strong>-minHitRate</strong> - minimalna wartość HitRate dopuszczalna w procesie uczenia, </li>
+<li> <strong>-maxFalseAlarmRate</strong> - maksymalna wartość False Alarm w procesie uczenia,  </li><li> <strong>-w, -h</strong> - szerokość i wysokość modelu na wzorcu (proporcje),</li>
+</ul>
+
+W przypadku opisywanego projektu, funkcja traincascade została uruchomiona w terminalu OS Ubuntu. Po kilkunastu godzinach pracy otrzymano pliki, które zostały zapisane w katalogu [./data](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/data). Sam klasyfikator (gotowy do użycia) został zapisany jako plik w formacie .xml - [cascade30.xml](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/data/cascade30.xml)
+
 
 <h3> Rezultat</h3>
 
-<h2> Podsumowanie </h2>
+Aby sprawdzić poprawność działania klasyfikatora HAAR, skorzystaliśmy z gotowego kodu (Python) udostępnionego w ramach przeprowadzenia zajęć wykładowych przez Pana dr. Konrada Urbańskiego. Kod został zapisany w katalogu głównym projektu pod nazwą [testHAAR.py](https://github.com/Olsze16/Klasyfikator-HAAR---Airbus-A320-200/tree/master/testHAAR.py).
+
+Jako zdjęcie testowe użyliśmy zrzutu ekranu z uczonym modelem 3D obiektu Airbus-A320-200. Klasyfikator poprawnie wskazał lokalizację obiektu, a program za pomocą użycia gotowych funkcji z biblioteki opencv narysował prostokąt na lokalizacji wykrytego obiektu. Poniżej załączono zrzut ekranu przedstawiający poprawnie działający program:
+
+
+<p align="center">
+  <img src="/support_files/result.jpg?raw=true" alt="HAAR result"/>
+</p>
+<p align="center"><em>Pic. 8. Rezultat uruchomionego programu z klasyfikatorem HAAR</em></p>
+
+
+<h2> Literatura </h2>
 
 
