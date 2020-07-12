@@ -143,4 +143,21 @@ Jako zdjęcie testowe użyliśmy zrzutu ekranu z uczonym modelem 3D obiektu Airb
 
 <h2> Literatura </h2>
 
+<ol>
+<li><strong>PRZEMYSŁAW SIWEK</strong> Materiały do zajęc laboratoryjnych - Tworzenie klasyfikatorów HAAR'o podobnych - Informatyka IV - Symulacja komputerowa
+[online]. Pobrano: http://zsep.cie.put.poznan.pl/. </li>
+<li><strong>DR KONRAD URBAŃSKI</strong> Materiały do zajęc wykładowych - klasyfikatory HAAR - Informatyka IV - Symulacja komputerowa
+[online].  Pobrano: http://zsep.cie.put.poznan.pl/. </li>
+<li> <strong>Logo PUT Poznań</strong>
+[online]. Pobrano: http://put.poznan.pl/.</li>
+<li><strong>Computational Vision at Caltech - Caltech 101</strong> [online]. Pobrano: 
+http://www.vision.caltech.edu/Image_Datasets/Caltech101/.</li>
+<li><strong>Sketchfab 3D Models</strong> [online]. Pobrano: 
+https://sketchfab.com/search?q=aircraft&sort_by=-pertinence&type=models.</li>
+<li><strong>Pythonprogramming.net HAAR cascade lesson</strong> [online] Pobrano: https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/</li>
+<li><strong>Biblioteka opencv - HAAR cascade</strong> [online] Pobrano: https://docs.opencv.org/3.4/d7/d8b/tutorial_py_face_detection.html</li>
+</ol>
+
+
+
 
